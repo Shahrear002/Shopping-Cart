@@ -4,7 +4,7 @@
 	<% include layouts/layouts.ejs %>
 
 		<div class="row">
-		<% products.forEach((products)=> { %>
+		<% products.forEach(function(products) { %>
 		  <div class="col-sm-6 col-md-4">
 		    <div class="thumbnail">
 		      <img src="<%= products.imagePath %>" 
@@ -19,7 +19,7 @@
 		      </div>
 		    </div>
 		  </div>
-		  <% }) %>
+		  <% }); %>
 	</div>
 
 
