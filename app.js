@@ -19,7 +19,7 @@ var userRoutes = require('./routes/user');
 var app = express();
 
 //connecting mongoose
-mongoose.connect('mongodb://localhost/shopping');
+mongoose.connect('mongodb+srv://shahrear002:shabuz2222@shopping.xcsgs.mongodb.net/myFirstDatabase?retryWrites=true&w=majority');
 require('./config/passport');
 
 // view engine setup
